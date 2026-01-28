@@ -157,7 +157,7 @@ if file_to_process:
     except Exception as e:
         st.error(f"Error processing file: {str(e)}")
 else:
-    st.info("👆 Please upload a document or select a sample file to get started!")
+    st.info("Please upload a document or select a sample file to get started!")
 
 # Footer
 st.markdown("---")
